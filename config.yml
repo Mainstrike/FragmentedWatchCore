@@ -1,13 +1,45 @@
-# +------------------------------------------------------+ 
-# |                       FragmentedWatchCore            | 
-# +------------------------------------------------------+ 
-# This version is experimental!
+# +------------------------------------------------------+
+# |                       FragmentedWatchCore            |
+# +------------------------------------------------------+
 # This Plugin Is Made by Mainstrike.
+# Description: This Plugin Has Multiple Features, such as staff chat and diamond_ore break detection and much more coming soon!
 # Discord: Mainstrike#2383
-# Twitter: CL_Mainstrike
-# Or Twitter: CL_MainstrikeMC
+# Twitter: @CL_Mainstrike
+# Or Twitter: @MainstrikeMC
+# Or Twitter: @DevMainstrike
 # Spigot Name: Mainstrike
 # Wiki: https://github.com/Mainstrike/FragmentedWatchCore/wiki/
-# ---
-# Credit Command Is Not Currently Available in this Version.
-Credit: false
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Default Permissions [Not Customisable at the moment]
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Main Perms
+# FragmentedWatch.Staff.* - All Staff Perms
+# FragmentedWatch.Staff.Admin.Chat - Admin Chat / Staff Chat
+# FragmentedWatch.Staff.Admin - Lets you reload config and more.
+# FragmentedWatch.Staff - Shows you alerts when config is reloaded.
+# -=-=-=-=-=-=-=-=-=-=-=-=-
+# Xray Related Perms:
+# FragmentedWatch.AC.Notify.Break.Diamond - Alerts Staff with this permission when a diamond is mined.
+# FragmentedWatch.AC.Bypass.Xray - Bypasses Alert when a diamond is mined.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Current Commands
+# /ao - Toggles Admin Chat
+# /aoshout - Sends a message to Admin Chat
+# /fwbc - Sends a broadcast to whole server.
+# /fwconfig - Reloads the config.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+
+
+
+
+
+
+FWMessages:
+  Prefix: '&9&lFW '
+  NoPerm: '&cYou are not permitted to use this command!'
+  AdminChatOn: '&6AdminChat has been &2Enabled'
+  AdminChatOff: '&6AdminChat has been &cDisabled'
+ 
